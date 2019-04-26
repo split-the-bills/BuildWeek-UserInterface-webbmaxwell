@@ -126,6 +126,34 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-#title {
-  color: red;
+html {
+  background-image: linear-gradient(to right, #183661, #DD6D4D);
+}
+h1 {
+  font-size: 5rem;
+  color: #DAE1E7;
+}
+@desktop {
+  font-size: 3rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 1.5rem;
+  background-color: ;
+}
+header #title {
+  align-self: center;
+}
+header #logo {
+  align-self: flex-start;
+}
+p {
+  color: #DAE1E7;
+  font-size: 1.5rem;
+  margin: 1rem 1.5rem;
+}
+form {
+  color: #DAE1E7;
+  font-size: 1.5rem;
 }
