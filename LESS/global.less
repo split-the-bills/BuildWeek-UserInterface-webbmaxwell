@@ -1,10 +1,12 @@
-html {
-  background-image: linear-gradient(to right, @deepblue, @fanta);
+.content {
+  background-image: url("../Images/friends-eating.jpg");
+  opacity: 1;
 }
 
 h1 {
   font-size: 5rem;
-  color: @cloud;
+  color: @banana;
+  padding: 1rem;
   @desktop {
     font-size: 3rem;
   }
@@ -13,23 +15,30 @@ h1 {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 0px 1.5rem;
-  background-color: ;
+  margin: 0px;
+  background-color: @deepblue;
   #title {
     align-self: center;
   }
   #logo {
     align-self: flex-start;
+    padding: 0rem .5rem;
   }
 }
 
 p {
-  color: @cloud;
-  font-size: 1.5rem;
-  margin: 1rem 1.5rem;
+  color: @deepblue;
+  font-size: 3rem;
+  padding: 1rem 1.5rem;
 }
 
 form {
-  color: @cloud;
+  color: @banana;
   font-size: 1.5rem;
+}
+
+a {
+  color: @banana;
+  font-size: 2rem;
+  text-decoration: none;
 }

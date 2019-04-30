@@ -126,12 +126,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-html {
-  background-image: linear-gradient(to right, #183661, #DD6D4D);
+.content {
+  background-image: url("../Images/friends-eating.jpg");
+  opacity: 1;
 }
 h1 {
   font-size: 5rem;
-  color: #DAE1E7;
+  color: #ffd700;
+  padding: 1rem;
 }
 @desktop {
   font-size: 3rem;
@@ -139,21 +141,33 @@ h1 {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 0px 1.5rem;
-  background-color: ;
+  margin: 0px;
+  background-color: #022c43;
 }
 header #title {
   align-self: center;
 }
 header #logo {
   align-self: flex-start;
+  padding: 0rem 0.5rem;
 }
 p {
-  color: #DAE1E7;
-  font-size: 1.5rem;
-  margin: 1rem 1.5rem;
+  color: #022c43;
+  font-size: 3rem;
+  padding: 1rem 1.5rem;
 }
 form {
-  color: #DAE1E7;
+  color: #ffd700;
   font-size: 1.5rem;
+}
+a {
+  color: #ffd700;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.menu {
+  display: none;
+}
+.menu--open {
+  display: block;
 }
