@@ -1,9 +1,22 @@
-const toggleMenu = () => {
-  menu.classList.toggle('menu--open');
+class Dropdown {
+  constructor(element) {
+
+    this.element = element;
+
+    this.button = this.element.querySelector(".dropdown-button");
+
+    this.content = this.element.querySelector(".dropdown-content");
+
+    this.button.addEventListener('click', () => {
+      this.toggleContent();
+    });
+  };
+
+  toggleContent(element) {
+
+    this.content.classList.toggle('dropdown-hidden');
+  };
 };
 
-const menu = document.querySelector('.menu');
 
-const menuButton = document.querySelector('.menu-button');
-
-menuButton.addEventListener('click', toggleMenu);
+let dropdowns = document.querySelectorAll('.dropdown').forEach( dropdown => new Dropdown(dropdown));

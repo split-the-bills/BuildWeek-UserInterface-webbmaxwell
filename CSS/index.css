@@ -132,6 +132,8 @@ table {
 }
 h1 {
   font-size: 5rem;
+  font-family: futura;
+  text-shadow: 2px 2px 8px;
   color: #ffd700;
   padding: 1rem;
 }
@@ -140,9 +142,9 @@ h1 {
 }
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0px;
-  background-color: #022c43;
+  background-image: linear-gradient(to right, #022c43, #115173);
 }
 header #title {
   align-self: center;
@@ -155,6 +157,7 @@ p {
   color: #022c43;
   font-size: 3rem;
   padding: 1rem 1.5rem;
+  text-align: center;
 }
 form {
   color: #ffd700;
@@ -165,9 +168,39 @@ a {
   font-size: 2rem;
   text-decoration: none;
 }
-.menu {
-  display: none;
+.dropdown {
+  z-index: 2;
+  position: absolute;
+  left: 25px;
+  cursor: pointer;
 }
-.menu--open {
-  display: block;
+.dropdown .dropdown-button {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dropdown .dropdown-button:hover {
+  background-color: #115173;
+}
+.dropdown .dropdown-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.dropdown .dropdown-link {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
+  text-decoration: none;
+  color: #931d25;
+}
+.dropdown .dropdown-link:hover {
+  color: #ffd700;
+  background-color: #115173;
+}
+.dropdown .dropdown-hidden {
+  display: none;
 }
