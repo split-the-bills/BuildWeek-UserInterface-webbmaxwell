@@ -144,6 +144,7 @@ header {
   display: flex;
   justify-content: space-around;
   margin: 0px;
+  padding: 0.8rem;
   background-image: linear-gradient(to right, #022c43, #115173);
 }
 header #title {
@@ -158,6 +159,7 @@ p {
   font-size: 3rem;
   padding: 1rem 1.5rem;
   text-align: center;
+  font-family: sans-serif;
 }
 form {
   color: #ffd700;
@@ -183,22 +185,22 @@ a {
   background-color: #115173;
 }
 .dropdown .dropdown-content {
-  width: 100%;
+  width: 200%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
 }
 .dropdown .dropdown-link {
-  width: 100%;
+  width: 200%;
   text-align: center;
   padding: 15px 0;
   font-size: 18px;
   text-decoration: none;
-  color: #931d25;
+  color: #ffd700;
+  background-color: #022c43;
 }
 .dropdown .dropdown-link:hover {
-  color: #ffd700;
   background-color: #115173;
 }
 .dropdown .dropdown-hidden {

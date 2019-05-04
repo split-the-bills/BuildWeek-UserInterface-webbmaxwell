@@ -13,7 +13,6 @@ class Dropdown {
   };
 
   toggleContent(element) {
-
     this.content.classList.toggle('dropdown-hidden');
   };
 };
