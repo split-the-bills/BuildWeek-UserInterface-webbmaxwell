@@ -1,0 +1,36 @@
+.dropdown-menu {
+  z-index: 2;
+  position: absolute;
+  left: 25px;
+  cursor: pointer;
+  .dropdown-button {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  };
+  .dropdown-button:hover {
+    background-color: @litblue;
+  };
+  .dropdown-content {
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  };
+  .dropdown-link {
+    width: 150%;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 2rem;
+    text-decoration: none;
+    color: @banana;
+    background-color: @deepblue;
+  };
+  .dropdown-link:hover {
+    background-color: @litblue;
+  };
+  .dropdown-hidden {
+    display: none;
+  };
+};

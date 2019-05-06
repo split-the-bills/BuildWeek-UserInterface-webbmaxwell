@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.content {
+  background-image: url("../Images/friends-eating.jpg");
+  opacity: 1;
+}
+.about-content {
+  background-image: url("../Images/handshake.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 5rem;
+  font-family: futura;
+  text-shadow: 2px 2px 8px;
+  color: #ffd700;
+  padding: 1rem;
+}
+@desktop {
+  font-size: 3rem;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0.8rem;
+  background-image: linear-gradient(to right, #022c43, #115173);
+}
+header #title {
+  align-self: center;
+}
+header #logo {
+  align-self: flex-start;
+  padding: 0rem 0.5rem;
+}
+p {
+  color: #022c43;
+  font-size: 3rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+form {
+  color: #ffd700;
+  font-size: 1.5rem;
+}
+a {
+  color: #ffd700;
+  font-size: 2rem;
+  text-decoration: none;
+}
+h2 {
+  color: #022c43;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.detail {
+  color: #022c43;
+  font-size: 2rem;
+}
+form {
+  text-align: right;
+  padding: 2rem;
+  font-family: sans-serif;
+  border: solid 3px #022c43;
+}
+input {
+  width: 15rem;
+  border: solid 1px #022c43;
+}
+.form-data {
+  display: flex;
+}
+.form-p {
+  font-size: 2rem;
+  padding: 2rem;
+}
+@tablet {
+}
+.dropdown-menu {
+  z-index: 2;
+  position: absolute;
+  left: 25px;
+  cursor: pointer;
+}
+.dropdown-menu .dropdown-button {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dropdown-menu .dropdown-button:hover {
+  background-color: #115173;
+}
+.dropdown-menu .dropdown-content {
+  width: 150%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.dropdown-menu .dropdown-link {
+  width: 150%;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ffd700;
+  background-color: #022c43;
+}
+.dropdown-menu .dropdown-link:hover {
+  background-color: #115173;
+}
+.dropdown-menu .dropdown-hidden {
+  display: none;
+}

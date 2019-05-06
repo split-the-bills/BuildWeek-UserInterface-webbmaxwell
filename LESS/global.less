@@ -1,0 +1,87 @@
+.content {
+  background-image: url("../Images/friends-eating.jpg");
+  opacity: 1;
+}
+
+.about-content {
+  background-image: url("../Images/handshake.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: futura;
+  text-shadow: 2px 2px 8px;
+  color: @banana;
+  padding: 1rem;
+  @desktop {
+    font-size: 3rem;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  padding: .8rem;
+  background-image: linear-gradient(to right, @deepblue, @litblue);
+  #title {
+    align-self: center;
+  }
+  #logo {
+    align-self: flex-start;
+    padding: 0rem .5rem;
+  }
+}
+
+p {
+  color: @deepblue;
+  font-size: 3rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+form {
+  color: @banana;
+  font-size: 1.5rem;
+}
+
+a {
+  color: @banana;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+h2 {
+  color: @deepblue;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.detail {
+  color: @deepblue;
+  font-size: 2rem;
+}
+form {
+  text-align: right;
+  padding: 2rem;
+  font-family: sans-serif;
+  border: solid 3px @deepblue;
+}
+input {
+  width: 15rem;
+  border: solid 1px @deepblue;
+}
+.form-data {
+  display: flex;
+}
+.form-p {
+  font-size: 2rem;
+  padding: 2rem;
+  @tablet {
+    // font-size: 2rem;
+  }
+}
