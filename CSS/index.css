@@ -130,6 +130,9 @@ table {
   background-image: url("../Images/friends-eating.jpg");
   opacity: 1;
 }
+.about-content {
+  background-image: url("../Images/handshake.jpg");
+}
 h1 {
   font-size: 5rem;
   font-family: futura;
@@ -170,39 +173,39 @@ a {
   font-size: 2rem;
   text-decoration: none;
 }
-.dropdown {
+.dropdown-menu {
   z-index: 2;
   position: absolute;
   left: 25px;
   cursor: pointer;
 }
-.dropdown .dropdown-button {
+.dropdown-menu .dropdown-button {
   padding: 15px;
   font-size: 20px;
   font-weight: bold;
 }
-.dropdown .dropdown-button:hover {
+.dropdown-menu .dropdown-button:hover {
   background-color: #115173;
 }
-.dropdown .dropdown-content {
-  width: 200%;
+.dropdown-menu .dropdown-content {
+  width: 150%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
 }
-.dropdown .dropdown-link {
-  width: 200%;
+.dropdown-menu .dropdown-link {
+  width: 150%;
   text-align: center;
   padding: 15px 0;
-  font-size: 18px;
+  font-size: 2rem;
   text-decoration: none;
   color: #ffd700;
   background-color: #022c43;
 }
-.dropdown .dropdown-link:hover {
+.dropdown-menu .dropdown-link:hover {
   background-color: #115173;
 }
-.dropdown .dropdown-hidden {
+.dropdown-menu .dropdown-hidden {
   display: none;
 }

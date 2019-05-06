@@ -18,4 +18,4 @@ class Dropdown {
 };
 
 
-let dropdowns = document.querySelectorAll('.dropdown').forEach( dropdown => new Dropdown(dropdown));
+const dropdowns = document.querySelectorAll('.dropdown-menu').forEach( dropdown => new Dropdown(dropdown));
